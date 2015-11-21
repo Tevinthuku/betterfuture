@@ -1,0 +1,71 @@
+<template name="contact">
+    <h4>Contact Us </h4>
+    <img class="materialboxed image" data-caption="This is our logo" width="300" height="300" src="/work.jpg">
+    
+    
+
+
+  
+  <div class="fixed-action-btn modal-trigger" style="bottom: 45px; right: 24px;" data-target="modal1">
+    <a class="btn-floating btn-large brown">
+      <i class="large mdi-editor-mode-edit"></i>
+    </a>
+
+  </div>
+        
+
+
+
+  <!-- Modal Structure -->
+<div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Our Contacts</h4>
+    
+   <!--The contacts--> 
+ <div class="section">
+        <div class="row">
+            <div class="col s2">
+                <i class="mdi-communication-call"></i>
+            </div>
+            <div class="col s7">
+               0722742603 
+               Is Our Number
+            </div>
+            <div class="col s3">
+                 <button class="btn waves-effect waves-light" data-clipboard-text="0722742603" onclick="Materialize.toast('The number has been copied to clipboard', 4000)">Copy
+                    <i class="mdi-communication-call"></i>
+                 </button> 
+            </div>
+        </div>
+  </div>
+  
+  
+  
+  <div class="divider"></div>
+  <div class="section">
+        <div class="row">
+            <div class="col s2">
+                <i class="mdi-social-group"></i>
+            </div>
+            <div class="col s6">
+                    Connect With us at facebook
+            </div>
+            <div class="col s4">
+                <a href="#">
+                 <button class="btn waves-effect waves-light">FaceBook
+                    <i class="mdi-social-group"></i>
+                 </button> 
+                 </a>
+            </div>
+        </div>
+  </div>
+  <div class="divider"></div>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+ </div>
+ 
+ 
+</template>

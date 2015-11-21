@@ -1,0 +1,24 @@
+.image{
+    margin: auto;
+    position:absolute;
+    right:0;
+    left:0;
+    border-radius:50%;
+}
+button{
+ margin:auto;
+
+ position:absolute;
+ right:0;
+ left:0;
+}
+.button{
+    margin:auto;
+    top:450px;
+    width: 180px;
+    position: absolute;
+    right:0;
+    left:0;
+    
+}
+

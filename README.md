@@ -1,0 +1,1 @@
+Got rid of the .meteor folder. Site serving at betterlife.meteor.com

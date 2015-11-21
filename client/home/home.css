@@ -1,0 +1,12 @@
+.homecard{
+    width: 300px;
+    height:400px;
+    margin:auto;
+    position: absolute;
+    right: 0;
+    left:0;
+}
+
+h4{
+    text-align: center;
+}
